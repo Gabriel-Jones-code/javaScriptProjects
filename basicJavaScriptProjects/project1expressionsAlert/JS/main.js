@@ -11,3 +11,5 @@ document.write(a);
 var s="\"Hello!\"";
 
 window.alert(s);
+
+document.write("Will you work?"+"Why indeed!");
