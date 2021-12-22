@@ -13,3 +13,7 @@ var s="\"Hello!\"";
 window.alert(s);
 
 document.write("Will you work?"+"Why indeed!");
+
+var w="why would you"+"add strings??";
+
+document.write(w);
