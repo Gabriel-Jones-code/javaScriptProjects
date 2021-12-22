@@ -8,6 +8,6 @@ var a="This is a string";
 
 document.write(a);
 
-var s="Hello!";
+var s="\"Hello!\"";
 
 window.alert(s);
