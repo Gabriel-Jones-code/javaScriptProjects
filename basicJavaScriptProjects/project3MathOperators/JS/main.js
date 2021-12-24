@@ -30,5 +30,5 @@ function remain() {
 
 function negitive() {
     var answer = 13;
-    document.getElementById(minus).innerHTML = -answer;
+    document.getElementById("minus").innerHTML = -answer;
 }
