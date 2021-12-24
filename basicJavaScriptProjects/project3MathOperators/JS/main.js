@@ -17,3 +17,13 @@ function divide() {
     var answer = 5/9;
     document.getElementById("divide").innerHTML = answer;
 }
+
+function manyMaths() {
+    var answer = 5*9*(2 + 3) - 10;
+    document.getElementById("simpleMath").innerHTML = answer;
+}
+
+function remain() {
+    var answer = 9%5;
+    document.getElementById("remainder").innerHTML = answer;
+}
