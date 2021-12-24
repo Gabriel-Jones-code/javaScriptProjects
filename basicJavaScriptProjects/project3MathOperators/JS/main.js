@@ -44,3 +44,5 @@ function minus() {
     x--;
     document.getElementById("decrease").innerHTML = x
 }
+
+window.alert(Math.random()*50)
