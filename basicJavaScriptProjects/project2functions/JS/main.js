@@ -31,3 +31,9 @@ function concatenate() {
     //The only new thing here is the "+=" opperator
     //This is how to add value to a var, without getting rid of the previous value
 }
+
+function spook() {
+    var boo = "BOO!"
+    var result = boo.fontcolor("cyan");
+    document.getElementById("spook").innerHTML = result;
+}
