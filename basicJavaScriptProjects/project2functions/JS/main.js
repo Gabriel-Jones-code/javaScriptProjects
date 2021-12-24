@@ -1,5 +1,5 @@
 function boop(){
-    var str = "You have clicked the button"
+    var str = "You have clicked the button";
     var result = str.fontcolor("red");
     document.getElementById("boop").innerHTML = result;
 }
@@ -22,3 +22,12 @@ function boop(){
 //the line of html that called for the function.
 //It does this using the .innerHTML at the end. After that, the function
 //returns the value that is "result"
+
+function concatenate() {
+    var sentence = "I am learning";
+    sentence += " a lot from this book!";
+    document.getElementById("concatenate").innerHTML = sentence;
+
+    //The only new thing here is the "+=" opperator
+    //This is how to add value to a var, without getting rid of the previous value
+}
