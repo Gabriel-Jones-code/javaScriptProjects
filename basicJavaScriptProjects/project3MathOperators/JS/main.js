@@ -27,3 +27,8 @@ function remain() {
     var answer = 9%5;
     document.getElementById("remainder").innerHTML = answer;
 }
+
+function negitive() {
+    var answer = 13;
+    document.getElementById(minus).innerHTML = -answer;
+}
