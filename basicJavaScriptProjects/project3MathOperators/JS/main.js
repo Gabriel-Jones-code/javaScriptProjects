@@ -32,3 +32,15 @@ function negitive() {
     var answer = 13;
     document.getElementById("minus").innerHTML = -answer;
 }
+
+function plus() {
+    var x = 10;
+    x++;
+    document.getElementById("increase").innerHTML = x
+}
+
+function minus() {
+    var x = 10;
+    x--;
+    document.getElementById("decrease").innerHTML = x
+}
