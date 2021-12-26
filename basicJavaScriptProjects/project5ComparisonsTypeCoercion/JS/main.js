@@ -1,1 +1,11 @@
 document.write(typeof "yes");
+
+document.write("1"+5);
+
+function test() {
+    document.getElementById("test").innerHTML = 0/0;    
+    //this does not exist. It will retern NaN
+    document.getElementById("test1").innerHTML = isNaN("this is a string");
+    //checks to see if the string (not a number btw) is a number
+    document.getElementById("test2").innerHTML = isNaN("007");
+}
