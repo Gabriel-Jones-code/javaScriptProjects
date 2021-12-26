@@ -9,3 +9,5 @@ function test() {
     //checks to see if the string (not a number btw) is a number
     document.getElementById("test2").innerHTML = isNaN("007");
 }
+
+document.write(2E310);      //This is infinity... kind of. It's just bigger then the max floating point number
