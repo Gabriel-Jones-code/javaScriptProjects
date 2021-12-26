@@ -1,6 +1,7 @@
 function dictionary () {
     var gabe = {            //this is a KVP
-        age: 20,            //numbers don't need ""
+        age: 21,            //numbers don't need ""
+        age: 20,            //this takes priority. I'm currently 20
         eyeColor: "Brown",
         hairColor: "Brown",
         gender: "Non-Binary",       //yes... I'm Non-binary
