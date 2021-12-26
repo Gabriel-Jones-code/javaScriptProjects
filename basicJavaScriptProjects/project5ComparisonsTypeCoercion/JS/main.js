@@ -11,3 +11,9 @@ function test() {
 }
 
 document.write(2E310);      //This is infinity... kind of. It's just bigger then the max floating point number
+document.write(-2E310);     //same thing as /|\ but negative
+
+//BOOLEAN!!
+document.write(23 > 20);                //will return true
+document.write("four" > "three");       //counts letters
+document.write([6 > 4] || [8 < 12]);    //|| is AND. I just remember this from a little bit of collage.
