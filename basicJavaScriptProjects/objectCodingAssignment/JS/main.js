@@ -11,6 +11,6 @@ var shirley = new vehicle("Honda", "Civic", 2001, "Beige");
 
 function whoDrives() {
     document.getElementById("keywordsAndConstructors").innerHTML = "Jeff drives a "
-    + jeff.vehicleColor + " -colored " + jeff.vehicleMake + "" + jeff.vehicleModel
+    + jeff.vehicleColor + "-colored " + jeff.vehicleMake + " " + jeff.vehicleModel
     + " made in " + jeff.vehicleYear;
 }
