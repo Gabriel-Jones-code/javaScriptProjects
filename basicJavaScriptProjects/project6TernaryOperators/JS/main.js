@@ -4,5 +4,5 @@ function howTall() {
     canRide = (height < 52) ? "You are too short":"You are tall enough";    
     //If height is less then 52, you are too short
     //If the question is false, then you are tall enough
-    document.getElementById("ride").innerHTML = canRide = "to ride.";
+    document.getElementById("ride").innerHTML = canRide + " to ride.";
 }
