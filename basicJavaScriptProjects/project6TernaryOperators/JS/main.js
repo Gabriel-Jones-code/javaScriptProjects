@@ -21,3 +21,27 @@ function donut() {
     document.getElementById("regina").innerHTML = "Regina has brought " + regina.howMayDonut
     + " " + regina.donutType + " donuts. They are better then Bruno.";
 }
+
+/*function object(type, place) {
+    this.entityType = type;
+    this.entityPlace = place;
+}
+
+var null = new object("God", "everywhere");
+
+function print(){
+
+document.getElementById("null").innerHTML = null;
+
+}*/
+//Comment out so the rest of the code works
+
+function counting() {
+    var startingPoint = 0;
+    function plusPlus() {
+        startingPoint += 1
+    }
+    plusPlus();
+    return startingPoint;
+    
+}
