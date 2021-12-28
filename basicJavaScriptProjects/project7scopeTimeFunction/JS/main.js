@@ -42,17 +42,5 @@ else says that if everything else comes back false, run this code.*/
 
 function number() {
     var number;
-    function numberType() {
-        number = document.getElementById("userInput").value;
-        return number;
-    }
-    numberType();
-    if (typeof numberType() == typeof "") {
-        document.getElementById("reply").innerHTML = number + " is not a number."
-        + " Please try again."
-    }
-    else {
-        document.getElementById("reply").innerHTML = "Your Number is " + number;
-    }
-    console.log(number);
+
 }
