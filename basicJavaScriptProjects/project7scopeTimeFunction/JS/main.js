@@ -31,3 +31,9 @@ function greeting() {
     }
     //if all else fails or the time is outside of the time range, say Hello!
 }
+
+/*if statments are easy to follow, but for the sake of repitition:
+if the statement inside the element is true, run that portion of the code and
+skip everthing else.
+if it is false, move on to the next line until you hit else.
+else says that if everything else comes back false, run this code.*/
