@@ -28,3 +28,9 @@ function look() {
     document.getElementById("find").innerHTML = looking;
 }
 //this will tell me the position of a letter or word in a string
+
+function numToLet() {
+    var number = 25;
+    document.getElementById("numType").innerHTML = number.toString();
+}
+//This can turn any given value into a string
