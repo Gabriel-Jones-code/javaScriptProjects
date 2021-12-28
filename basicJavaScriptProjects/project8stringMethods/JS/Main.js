@@ -40,3 +40,15 @@ function precise() {
     document.getElementById("round").innerHTML = point.toPrecision(15);
 }
 //toPrecision only shows a certain amount of digits, and rounds decimals
+
+function roundText() {
+    var dec = 25.1487234;
+    document.getElementById("rt").innerHTML = dec.toFixed(5);
+}
+//shows the amount of digits and rounds the decimals
+
+function countThis() {
+    var apples = "Apples are great!!"
+    document.getElementById("manyApples").innerHTML = apples.valueOf();
+}
+//counts the amount of characters in a string
