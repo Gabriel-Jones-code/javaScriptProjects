@@ -37,11 +37,11 @@ document.getElementById("null").innerHTML = null;
 //Comment out so the rest of the code works
 
 function counting() {
-    var startingPoint = 0;
-    function plusPlus() {
-        startingPoint += 1
+    var startingPoint = 0;              //declaring a variable
+    function plusPlus() {               //nested function
+        startingPoint += 1              //takes previous var and adds 1
     }
-    plusPlus();
-    return startingPoint;
+    plusPlus();                         //calls for and runs function
+    return startingPoint;               //gives function a value
     
 }
