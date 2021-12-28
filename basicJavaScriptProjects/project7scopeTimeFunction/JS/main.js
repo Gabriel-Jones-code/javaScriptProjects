@@ -41,10 +41,14 @@ else says that if everything else comes back false, run this code.*/
 //Else assignment
 
 function number() {
-    var number = document.getElementById("userInput").value;
-    if (typeof number == string) {
+    var number
+    function numberType() {
+        number = document.getElementById("userInput").value
+        return (number)
+    }
+    /*if (typeof number == string) {
         document.getElementById("reply").innerHTML = number + " is not a number."
         + " Please try again."
-    }
+    }*/
     console.log(number);
 }
