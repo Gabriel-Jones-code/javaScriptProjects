@@ -13,6 +13,9 @@ function add2() {
 add1();
 add2();
 
+//to instructor. I was a little ahead of the page I was on. sorry if this isn't
+//exactly what you were looking for. Please let me know.
+
 function greeting() {
     if (new Date().getHours() < 12) {
         document.getElementById("time").innerHTML = "Good Morning!";
@@ -41,6 +44,12 @@ else says that if everything else comes back false, run this code.*/
 //Else assignment
 
 function number() {
-    var number;
-
+    var hours = document.getElementById("userInput").value;
+    if (hours < 8) {
+        document.getElementById("reply").innerHTML = "You need to do a little"
+        + " more work today";
+    }
+    else {
+        document.getElementById("reply").innerHTML = "Nice work today!";
+    }
 }
