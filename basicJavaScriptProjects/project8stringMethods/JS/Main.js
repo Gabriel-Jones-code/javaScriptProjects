@@ -3,5 +3,6 @@ function sentence(){
     var part2 = "is ";
     var part3 = "a ";
     var part4 = "sentence";
-    document.write
+    document.getElementById("sent").innerHTML =  part1.concat(part2, part3, part4);
+    
 }
