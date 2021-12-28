@@ -18,3 +18,9 @@ function upper() {
     var upper = hello.toUpperCase();
     document.getElementById("upper").innerHTML = upper;
 }
+
+function look() {
+    var string = "The boy is looking at a tree";
+    var looking = string.search("tree");
+    document.getElementById("find").innerHTML = looking;
+}
