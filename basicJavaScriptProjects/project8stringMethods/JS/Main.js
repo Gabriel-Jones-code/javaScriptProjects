@@ -34,3 +34,9 @@ function numToLet() {
     document.getElementById("numType").innerHTML = number.toString();
 }
 //This can turn any given value into a string
+
+function precise() {
+    var point = 3.14159265358979323846;
+    document.getElementById("round").innerHTML = point.toPrecision(15);
+}
+//toPrecision only shows a certain amount of digits, and rounds decimals
