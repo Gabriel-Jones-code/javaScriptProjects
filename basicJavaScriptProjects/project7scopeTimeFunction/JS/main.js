@@ -12,3 +12,18 @@ function add2() {
 
 add1();
 add2();
+
+function greeting() {
+    if (new Date().getHours < 12) {
+        document.getElementById("morning").innerHTML = "Good Morning!";
+    }
+    else if (new Date().getHours < 15) {
+        document.getElementById("afternoon").innerHTML = "Good Afternoon";
+    }
+    else if (new Date().getHours < 18) {
+        document.getElementById("evening").innerHTML = "Good Evening";
+    }
+    else {
+
+    }
+}
