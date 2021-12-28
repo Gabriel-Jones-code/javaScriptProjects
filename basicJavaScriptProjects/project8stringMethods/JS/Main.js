@@ -51,4 +51,5 @@ function countThis() {
     var apples = "Apples are great!!"
     document.getElementById("manyApples").innerHTML = apples.valueOf();
 }
-//counts the amount of characters in a string
+//turns a string into a primitive value. this cannot be changed, is not an 
+//object and has no method
