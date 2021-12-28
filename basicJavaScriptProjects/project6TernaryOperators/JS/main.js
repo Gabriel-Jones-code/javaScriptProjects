@@ -36,12 +36,15 @@ document.getElementById("null").innerHTML = null;
 }*/
 //Comment out so the rest of the code works
 
-function counting() {
-    var startingPoint = 0;              //declaring a variable
-    function plusPlus() {               //nested function
-        startingPoint += 1              //takes previous var and adds 1
+function callCounting() {
+    document.getElementById("nestedFunction").innerHTML = counting();
+    //Don't forget to assign a var or function to /|\
+    function counting() {
+        var startingPoint = 0;              //declaring a variable
+            function plusPlus() {               //nested function
+                startingPoint += 1;             //takes previous var and adds 1
+            }
+        plusPlus();                         //calls for and runs function
+        return startingPoint;               //gives function a value
     }
-    plusPlus();                         //calls for and runs function
-    return startingPoint;               //gives function a value
-    
 }
