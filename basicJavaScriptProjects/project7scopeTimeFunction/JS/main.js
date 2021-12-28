@@ -15,15 +15,15 @@ add2();
 
 function greeting() {
     if (new Date().getHours() < 12) {
-        document.getElementById("morning").innerHTML = "Good Morning!";
+        document.getElementById("time").innerHTML = "Good Morning!";
     }
     else if (new Date().getHours() < 15) {
-        document.getElementById("afternoon").innerHTML = "Good Afternoon";
+        document.getElementById("time").innerHTML = "Good Afternoon!";
     }
     else if (new Date().getHours() < 18) {
-        document.getElementById("evening").innerHTML = "Good Evening";
+        document.getElementById("time").innerHTML = "Good Evening!";
     }
     else {
-
+        document.getElementById("time").innerHTML = "Hello!"
     }
 }
