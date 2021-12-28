@@ -37,3 +37,10 @@ if the statement inside the element is true, run that portion of the code and
 skip everthing else.
 if it is false, move on to the next line until you hit else.
 else says that if everything else comes back false, run this code.*/
+
+//Else assignment
+
+function number() {
+    var number = document.getElementById("userInput").value;
+    console.log(number);
+}
