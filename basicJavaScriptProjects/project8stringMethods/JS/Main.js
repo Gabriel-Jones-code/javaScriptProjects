@@ -12,3 +12,9 @@ function cut() {
     var part = sentence.slice(15, 22);
     document.getElementById("slice").innerHTML = part;
 }
+
+function upper() {
+    var hello = "Hello, World!";
+    var upper = hello.toUpperCase();
+    document.getElementById("upper").innerHTML = upper;
+}
