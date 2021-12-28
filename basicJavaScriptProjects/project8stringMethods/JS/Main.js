@@ -9,6 +9,6 @@ function sentence(){
 
 function cut() {
     var sentence = "I like to play Pokemon";
-    var part = sentence.slice(15, 21);
-    document.getElementById("slice").innerHTML = section;
+    var part = sentence.slice(15, 22);
+    document.getElementById("slice").innerHTML = part;
 }
