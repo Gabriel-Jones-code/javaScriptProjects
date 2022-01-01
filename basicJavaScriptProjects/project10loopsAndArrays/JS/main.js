@@ -8,9 +8,12 @@ function callLoop() {
     document.getElementById("loop").innerHTML = number;
 }
 
+let string = "this is a sentance";
+string = string.length;
 const friends = ["Celia", " Kaylee", " Emily", " Tyler"];
 let numberFriends = friends.length;
 friends.length = 4;
 
+document.getElementById("words").innerHTML = string;
 document.getElementById("friends").innerHTML = friends;
 document.getElementById("length").innerHTML = numberFriends;
