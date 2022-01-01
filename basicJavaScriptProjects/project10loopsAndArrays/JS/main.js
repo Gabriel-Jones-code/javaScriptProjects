@@ -9,10 +9,10 @@ function callLoop() {
 }
 
 let string = "this is a sentance";
-string = string.length;
-const friends = ["Celia", " Kaylee", " Emily", " Tyler"];
-let numberFriends = friends.length;
-friends.length = 4;
+string = string.length;     //counts letters
+const friends = ["Celia", " Kaylee", " Emily", " Tyler"];   //array
+let numberFriends = friends.length;             //counts items in array
+friends.length = 4;                             //will display array from 1 - 4
 
 document.getElementById("words").innerHTML = string;
 document.getElementById("friends").innerHTML = friends;
