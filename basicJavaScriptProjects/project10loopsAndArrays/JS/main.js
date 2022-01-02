@@ -27,3 +27,12 @@ function forLoop() {
     }                                   //content will hold everthing at once
     document.getElementById("for").innerHTML = content;
 }
+
+function arrayFunction() {
+    var array = [];
+    array[0] = "Hello!";
+    array[1] = "Hola!";
+    array[2] = "Konichiwa!";
+    array[3] = "Ni Hao!";        
+    document.getElementById("array").innerHTML = array[3];
+}
