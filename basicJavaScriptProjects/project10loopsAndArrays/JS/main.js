@@ -10,7 +10,7 @@ function callLoop() {
 
 let string = "this is a sentance";
 string = string.length;     //counts letters
-const friends = ["Celia", " Kaylee", " Emily", " Tyler"];   //array
+const friends = ["Celia", " Kaylee", " Emily", " Tyler"];   //array that will not change
 let numberFriends = friends.length;             //counts items in array
 friends.length = 4;                             //will display array from 1 - 4
 
