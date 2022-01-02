@@ -22,15 +22,15 @@ document.getElementById("length").innerHTML = numberFriends;
 function forLoop() {
     var dog = ["Max", "Hemi", "George", "Rockey"];
     var content = "";                       //leave empty to add words into var
-    for(let n = 0; n < dog.length; n++){    //declared let inside of for loop
+    for(var n = 0; n < dog.length; n++){    //declared var inside of for loop
         content += dog[n] + "<br>";     //adds dog[n] to content
     }                                   //content will hold everthing at once
     document.getElementById("for").innerHTML = content;
 }
 
 function arrayFunction() {
-    var array = [];
-    array[0] = "Hello!";
+    var array = [];         //declare var
+    array[0] = "Hello!";    //adds to var as an array
     array[1] = "Hola!";
     array[2] = "Konichiwa!";
     array[3] = "Ni Hao!";        
