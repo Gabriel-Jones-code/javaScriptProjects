@@ -39,3 +39,9 @@ function pet() {
     document.getElementById("pet").innerHTML = output;
     console.log(animals);
 }
+
+function change () {
+    let x = document.getElementByclassName("change");
+    //grabs class. If class is in multiple places, it creates an array!
+    x[1].innerHTML = "This has been changed";   //make sure to put in .innerHTML
+}
