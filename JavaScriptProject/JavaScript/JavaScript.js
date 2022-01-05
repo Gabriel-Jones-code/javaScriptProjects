@@ -6,6 +6,30 @@ function pet() {
     var string = " make great pets!";    //use for end of string. Not "REQUIRED", but reduces repitition
     switch(animals) {       //a conditional statement based on the cases inside
         case "Dog":                             //case...var: code
+            output = animals + "s" + string;
+            break;                              //breaks reading everything else
+        case "Cat":
+            output = animals + "s" + string;
+            break;
+        case "Mouse":
+            output = "Mice" + string;
+            break;
+        case "Rat":
+            output = animals + "s" + string;
+            break;
+        case "Rabbit":
+            output = animals + "s" + string;
+            break;
+        case "Hamster":
+            output = animals + "s" + string;
+            break;
+        case "Guinea pig":
+            output = animals + "s" + string;
+            break;
+        case "Ferret":
+            output = animals + "s" + string;
+            break;
+        case "Fish":
             output = animals + string;
             break;
         default:
