@@ -75,3 +75,4 @@ function bnc() {
         document.getElementById("continue").innerHTML = i;
     }
 }
+
