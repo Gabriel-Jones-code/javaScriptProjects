@@ -45,3 +45,8 @@ function change() {
     //grabs class. If class is in multiple places, it creates an array!
     x[1].innerHTML = "This has been changed";   //make sure to put in .innerHTML
 }
+
+function draw() {
+    var c = getElementById("display");
+    var cLine = c.getContext("2d");     //
+}
