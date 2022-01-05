@@ -1,7 +1,7 @@
 //use a switch statement
 
 function pet() {
-    var output = "";            //used to hold a output to send to html
+    var output;            //used to hold a output to send to html
     var animals = document.getElementById("answer").value;       //gets value from html
     var string = "s make great pets!";    //use for end of string. Not "REQUIRED", but reduces repitition
     switch(animals) {       //a conditional statement based on the cases inside
