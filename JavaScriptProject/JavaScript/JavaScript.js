@@ -60,4 +60,11 @@ function draw() {
 
 function grad() {
     let c = document.getElementById("display");
+    let cGrad = c.getContext("2d");
+    let grad = cGrad.createLinearGradient(0,0,500,0);   //starts gradient from (p1,p1,p2,p2)
+    grad.addColorStop(0, "orange");
+    grad.addColorStop(.5, "blue");                  //0 and 1 are the max values
+    grad.addColorStop(1, "red");
+    cGrad.fillStyle = grad;         //draws from grad definitions
+    cGrad.fillRect(0,0,500,500);    //fills as a rectangle from point to point
 }
