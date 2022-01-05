@@ -47,6 +47,13 @@ function change() {
 }
 
 function draw() {
-    var c = getElementById("display");
+    var c = document.getElementById("display");
     var cLine = c.getContext("2d");     //renders everything in 2d on canvas
+    cLine.moveTo(0,0);      //does not create a line. moves "pen" to a point
+    cLine.lineTo(250,250);  //makes a line from one point to another
+    cLine.lineTo(500,0);
+    cLine.moveTo(500,500);
+    cLine.lineTo(250,250);
+    cLine.lineTo(0,500);
+    cLine.stroke();         //draws all lines
 }
