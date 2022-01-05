@@ -48,5 +48,5 @@ function change() {
 
 function draw() {
     var c = getElementById("display");
-    var cLine = c.getContext("2d");     //
+    var cLine = c.getContext("2d");     //renders everything in 2d on canvas
 }
