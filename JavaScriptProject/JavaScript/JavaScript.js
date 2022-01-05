@@ -3,7 +3,7 @@
 function pet() {
     var output;            //used to hold a output to send to html
     var animals = document.getElementById("answer").value;       //gets value from html
-    var string = "s make great pets!";    //use for end of string. Not "REQUIRED", but reduces repitition
+    var string = " make great pets!";    //use for end of string. Not "REQUIRED", but reduces repitition
     switch(animals) {       //a conditional statement based on the cases inside
         case "Dog":                             //case...var: code
             output = animals + string;
@@ -12,5 +12,6 @@ function pet() {
             output = "Please enter an animal \"Exactly\" as shown"
             break;
     }
-    document.getElementById("pets").innerHTML = output;
+    document.getElementById("pet").innerHTML = output;
+    console.log(animals);
 }
