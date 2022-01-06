@@ -1,0 +1,6 @@
+input[type=text] {          /*Incase you forget, css is easy. you can specify what you want to*/
+    width: 20%;             /*change and how you want to change it. Just remember how*/
+    border: 1px solid blue;/*positions, margins, and paddings work*/
+    border-radius: 2px;
+    color: crimson;
+}
