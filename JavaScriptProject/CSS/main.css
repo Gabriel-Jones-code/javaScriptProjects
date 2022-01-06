@@ -4,3 +4,5 @@ input[type=text] {          /*Incase you forget, css is easy. you can specify wh
     border-radius: 2px;
     color: crimson;
 }
+
+/*I just learned about :focus witch is super cool. just like :hover, except on click*/
