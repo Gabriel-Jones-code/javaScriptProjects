@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<script src="JavaScript/JavaScript2.js"></script>
+        <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    </head>
+    <body>
+        <form name="form1" action="" onsubmit="return validate()" method="post">
+            <lable for="firstName">First Name:</lable>
+            <input type="text" name="firstName" id="firstName" placeholder="First Name">
+            <lable for="lastName">Last Name:</lable>
+            <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
+
+<!--Just as a footnote, post is meant to send data to the server. this is used to
+either create or update a resource. get on the other hand, requests data from the server
+In this example, we are using post to send data to the JavaScript side of the page.-->
