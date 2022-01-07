@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<script src="JavaScript/JavaScript3.js"></script>
+    </head>
+    <body>
+        <p>Click to see who the super hero is</p>
+        <ul>
+            <li onclick="ae(this)" id="ts" characterType="Tony Stark">Iron Man</li>
+            <li onclick="ae(this)" id="thor" characterType="Thor... Son of Odin">Thor</li>
+            <li onclick="ae(this)" id="banner" characterType="Bruce Banner">The Hulk</li>
+            <li onclick="ae(this)" id="ca" characterType="Steve Rogers">Captain America</li>
+            <li onclick="ae(this)" id="bp" characterType="T'challa">Black Panther</li>
+            <li onclick="ae(this)" id="bw" characterType="Natasha Romanoff">Black Widow</li>
+            <li onclick="ae(this)" id="sm" characterType="Peter Parker">Spider Man</li>
+        </ul>
+    </body>
+</html>
+
+
+<!--OK OK OK OK OK-->
+<!--This took me a second so I need to explain before I forget-->
+<!--"this" is refering "_" as an object. What does it mean in this case?-->
+<!--It means that <li onclick="ae(this)" id="ts" character="Tony Stark">Iron Man</li>-->
+<!--is now an object. When "this" is paired with JavaScript, you can call parts-->
+<!--of the object that was declared in html without having to .getElementById-->
+<!--It is still good to id things so you can go back to the code and have an-->
+<!--easier time reading what you wrote-->
