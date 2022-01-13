@@ -34,7 +34,7 @@ function inputDecimal(dot) {
 
 //this section handles operators
 function handleOperator(nextOperator) {
-    const { firstOperand, displayValue, operator} = Calculator;
+    const { firstOperand, displayValue, operator} = Calculator
     //when an operator key is pressed, it converts the current number displayed on the screen to a number and then store the result in Calculator.firstOperand if it dousn't already exist
     const valueOfInput = parseFloat(displayValue);
     //checks if an operator already exists. if waitSecondOperator is true, ith updates the operator and exits the function
@@ -66,7 +66,7 @@ const performCalculation = {
     '*': (firstOperand, secondOperand) => firstOperand * secondOperand,
     '+': (firstOperand, secondOperand) => firstOperand + secondOperand,
     '-': (firstOperand, secondOperand) => firstOperand - secondOperand,
-    '=': (firstOperand, secondOperand) => secondOperand
+    '=': (_firstOperand, secondOperand) => secondOperand
 };
 
 function calculatorReset() {
@@ -84,7 +84,7 @@ function updateDisplay() {
 updateDisplay();
 //this section monitors button clicks
 const keys = document.querySelector('.calculatorKeys');
-keys.addEventListener('click', (event)) => {
+keys.addEventListener('click', (event) => {
     //the target variable is an object that represents the element that was clicked
     const {target} = event;
     if (!target.matches('button')) {
@@ -101,9 +101,9 @@ keys.addEventListener('click', (event)) => {
     if (target.classList.contains('allClear')) {
         calculatorReset();
         updateDisplay();
-        return:
+        return;
     }
 
     inputDigit(target.value);
     updateDisplay();
-}
+})
