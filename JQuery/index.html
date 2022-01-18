@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    </head>
+    <body>
+
+    </body>
+
+    <script>
+        $('document').ready(function(){     //$ refers to JQuery, document is the entire html doc, and ready is asking "is the document ready?"
+            $('html').append(
+                "<body>\
+                     <div id='container'>\
+                        <div id='inner'>\
+                            <p>Paragraph 1</p>\
+                            <p>Paragraph 2</p>\
+                            <p>Paragraph 3</p>\
+                        </div>\
+                    </div>\
+                </body>\   "
+        });
+    </script>
+</html>
