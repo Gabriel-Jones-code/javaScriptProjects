@@ -10,17 +10,29 @@
 
     <script>
         $('document').ready(function(){     //$ refers to JQuery, document is the entire html doc, and ready is asking "is the document ready?"
-            $('html').append(
+            $('html').append(               //JQuery is going to be adding anything in the .append tag to the html file.
                 "<body>\
                      <div id='container'>\
                         <div id='inner'>\
-                            <p>Paragraph 1</p>\
-                            <p>Paragraph 2</p>\
-                            <p>Paragraph 3</p>\
-                        </div>\
+                            <h1>JQuary</h1>\
+                            <p id='one'>Paragraph 1</p>\
+                            <p id='two'>Paragraph 2</p>\
+                            <p id='three'>Paragraph 3</p>\
+                            <p id='four'>Click to hide</;>\
                     </div>\
-                </body>\   "
+                </body>"
             )
+            $('#two').css({'color':'red'})
+            $('#three').click(function() {
+                $('#three').hide();
+            });
+            $('#one').on('click', function(){
+                window.alert('You have found an easter egg!');
+            });
+            $('#four').click(function(){
+                $('p').hide('slow');
+            })
+            $('h1').click(function(){$('p').show('slow')})
         });
     </script>
 </html>
