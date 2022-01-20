@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+    </head>
+    <body>
+        <p id='XMLexample'></p>
+    </body>
+    <script>
+        var XMLParser, XMLDoci
+
+        var game = '<game>' +   //creating new object with custom defs
+        '<title>Destiny 2</title>' +
+        '<developer>Bungie</developer>' +
+        '<genre>Fps</genre>' +
+        '<releaseDate>Sep. 6, 2017</releaseDate>'+
+        '</game>';
+
+        //creates XML DOM parser
+        XMLParser = new DOMParser();
+
+        //create new XML DOM object using the text string
+        XMLDoc = XMLParser.parseFromString(game,'text/xml');
+
+        document.getElementById('XMLexample').innerHTML = 
+        XMLDoc.getElementsByTagName('title')[0].childNodes[0].nodeValue;
+    </script>
+</html>
