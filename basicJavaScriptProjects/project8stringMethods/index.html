@@ -4,7 +4,18 @@
         <meta charset="utf-8">
         <script src="JS/Main.js"></script>
     </head>
-    <body>
+    <style>
+        body {
+            opacity: 1;
+            transition: 1s opacity;
+        }
+
+        body.fadeOut {
+            opacity: 0;
+            transition: none;
+        }
+    </style>
+    <body class='fadeOut'>
         <p id="sent" onclick="sentence()">Click here!</p>
         <p id="slice"></p>
         <button onclick="cut()">Click Here!</button>
@@ -18,4 +29,10 @@
         <p id="manyApples" onclick="countThis()">The following sentence cannot
         be changed.</p>
     </body>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            document.body.classList.remove('fadeOut');
+        })
+    </script>
 </html>

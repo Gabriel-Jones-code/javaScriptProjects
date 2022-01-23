@@ -6,23 +6,6 @@
         <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
         <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>      
     </head>
-    
-    <style>
-        body {
-            opacity: 1;
-            transition: 1s opacity;
-        }
-
-        body.fadeOut {
-            opacity: 0;
-            transition: none;
-        }
-    </style>
-
-    <body>
-
-    </body>
-
     <script>
         $('document').ready(function(){     //$ refers to JQuery, document is the entire html doc, and ready is asking "is the document ready?"
             $('html').append(               //JQuery is going to be adding anything in the .append tag to the html file.
@@ -48,11 +31,6 @@
                 $('p').hide('slow');
             })
             $('h1').click(function(){$('p').show('slow')})
-        });
-
-        document.body.classList.add('fadeOut');
-        window.addEventListener('DOMContentLoaded', () => {
-            document.body.classList.remove('fade-out');
         });
     </script>
 </html>
